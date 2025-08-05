@@ -2,51 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NotiSend - Email Notification Forwarder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NotiSend – Notification Delivery App</title>
   <style>
     body {
-      font-family: sans-serif;
+      font-family: Arial, sans-serif;
       line-height: 1.6;
       margin: 0;
       padding: 0;
-      background: #f8f9fa;
+      background: #f9f9f9;
       color: #333;
     }
     header {
-      background: #4a90e2;
+      background: #007bff;
       color: #fff;
-      padding: 2rem;
+      padding: 20px;
       text-align: center;
     }
-    section {
+    main {
       max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
+      margin: auto;
+      padding: 20px;
       background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
     h1, h2 {
-      margin-top: 0;
-    }
-    ul {
-      padding-left: 20px;
+      color: #007bff;
     }
     footer {
       text-align: center;
-      padding: 1rem;
+      padding: 20px;
       font-size: 0.9em;
-      color: #777;
+      color: #666;
     }
-    a.button {
-      display: inline-block;
-      margin-top: 1rem;
-      background: #4a90e2;
-      color: #fff;
-      padding: 0.75rem 1.5rem;
-      border-radius: 5px;
-      text-decoration: none;
+    a {
+      color: #007bff;
     }
   </style>
 </head>
@@ -54,50 +43,31 @@
 
   <header>
     <h1>NotiSend</h1>
-    <p>Forward SMS, calls & notifications to your email</p>
+    <p>Reliable Notification Delivery via Email</p>
   </header>
 
-  <section>
-    <h2>📱 What is NotiSend?</h2>
-    <p>
-      NotiSend is a simple yet powerful Android app that automatically forwards selected notifications, SMS messages, and call alerts to your email account.
-      Stay informed even when you're away from your device.
-    </p>
+  <main>
+    <h2>About the App</h2>
+    <p><strong>NotiSend</strong> is a simple and secure tool for sending notifications via email from your devices or systems to your inbox. Whether you're monitoring servers, tracking tasks, or receiving alerts, NotiSend delivers reliable email updates in real time.</p>
 
-    <p>
-
-     <h2> 🆕 A new version of the app is now available!</h2><br>
-This update brings several important improvements and fixes:<br>
-✅ Updated Target API to 35 – The app is now compliant with the latest Android security and performance standards.<br>
-✅ Google OAuth2 support – You can now send notifications using your Google account, without entering your password.<br>
-✅ Redesigned settings screen – A cleaner and more intuitive interface makes configuration easier.<br>
-✅ Fixed SSL issue with SMTP – All combinations of servers and encryption methods now work reliably.<br>
-We recommend updating the app to take full advantage of all new features and improvements.<br>
-
-      
-    </p>
-
-    <h2>✨ Key Features</h2>
+    <h2>Key Features</h2>
     <ul>
-      <li>✔️ SMS and call forwarding</li>
-      <li>✔️ Notification forwarding</li>
-      <li>✔️ Custom or preconfigured email support</li>
-      <li>✔️ Automatic email provider setup</li>
-      <li>✔️ Start/stop service control</li>
-      <li>✔️ Local-only processing (no server-side data)</li>
+      <li>Send notifications using your custom SMTP or Google account (via OAuth2)</li>
+      <li>Supports multiple email providers with encryption</li>
+      <li>Clean and easy-to-use configuration interface</li>
+      <li>Works in the background without draining battery</li>
     </ul>
 
-    <h2>🔒 Privacy First</h2>
-    <p>
-      NotiSend does <strong>not collect or send data</strong> to any server. All processing is done locally on your device.
-    </p>
+    <h2>Use of Data</h2>
+    <p>NotiSend does <strong>not</strong> collect, store, or share any user data. All email credentials are stored locally on your device and are only used to authenticate and send messages through your configured email service provider.</p>
+    <p>If you choose to use your Google account for sending emails, authentication is handled via <strong>OAuth2</strong> in accordance with Google's policies. The app never accesses or stores your password.</p>
 
-    <h2>📥 Get the App</h2>
-    <a href="https://play.google.com/store/apps/details?id=com.notisend2" class="button">Download on Google Play</a>
-  </section>
+    <h2>Privacy Policy</h2>
+    <p>Please review our <a href="privacy.html">Privacy Policy</a> for more information.</p>
+  </main>
 
   <footer>
-    &copy; 2025 NotiSend. Built with privacy in mind.
+    &copy; 2025 NotiSend. All rights reserved.
   </footer>
 
 </body>
